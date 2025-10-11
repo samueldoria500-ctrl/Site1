@@ -9,7 +9,7 @@ Este projeto é um site simples e responsivo criado para representar a ONG Solid
 └── css/
     └── styles.css
 └── assets/
-    └── hero.jpg   ← (f404d8fd-dc56-43b0-9654-51c6ad09f802.png)
+    └── hero.jpg   ← (file_00000000934c622fafb3bd9acb3f5b4f.png)
 🚀 Publicando no GitHub Pages
 1. Crie o repositório
 No GitHub, clique em New Repository e dê um nome — por exemplo:
