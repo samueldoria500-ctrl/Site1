@@ -1,0 +1,292 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  line-height: 1.45;
+  color: #222;
+  background: #f7f8fb;
+}
+
+/* Layout principal */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #e6e9ef;
+}
+.topbar {
+  display: block;
+  align-items: center;
+  justify-items: center;
+  padding: 14px 0;
+
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  gap: 14px;
+  list-style: none;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+nav a:hover {
+  background: #f0f4ff;
+}
+.cta {
+  background: #0b74ff;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 28px;
+  align-items: center;
+  padding: 48px 0;
+}
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.hero p {
+  color: #444;
+  margin-bottom: 18px;
+}
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn-primary {
+  background: #0b74ff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #005fe0;
+}
+.btn-ghost {
+  background: transparent;
+  border: 1px solid #dfe7ff;
+  color: #0b74ff;
+}
+.hero-visual img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+/* Seções */
+section {
+  margin: 34px 0;
+  padding: 24px 0;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
+}
+.pillars li {
+  margin: 8px 0;
+}
+
+/* Doações */
+.doe-grid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.doe-item {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* Contato */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 18px;
+  align-items: start;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+  font-size: 14px;
+}
+button[type="submit"] {
+  background: #0b74ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button[type="submit"]:hover {
+  background: #005fe0;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 30px;
+  padding: 20px 0;
+  border-top: 1px solid #e6e9ef;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  width: 90%;
+  height: 80vh;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-text .btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero-text .btn:hover {
+  background-color: #ff4500;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.imagem-section {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.imagem-section img {
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #2e8b57;
+  color: white;
+  padding: 15px 0;
+  margin-top: 50px;
+}
