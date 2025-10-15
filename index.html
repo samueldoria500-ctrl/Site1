@@ -197,3 +197,137 @@ ONG Solidária — todos os direitos reservados
   <li><a href="contato.html">contato</a></li>
 </ul>
 
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Solidária</title>
+  <style>
+    /* ===== Estilos Gerais ===== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;     /* centraliza horizontalmente tudo */
+      text-align: center;      /* centraliza textos */
+    }
+
+    header {
+      background-color: #ff6600;
+      color: white;
+      width: 100%;
+      padding: 15px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* ===== Seção Principal ===== */
+    .hero {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-img {
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
+      filter: brightness(60%);
+      display: block;
+      margin: 0 auto;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      background-color: #ff6600;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ff4500;
+    }
+
+    /* ===== Rodapé ===== */
+    footer {
+      background-color: #222;
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ONG Solidária</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#pilares">Pilares</a>
+      <a href="#doar">Doar</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/hero.jpg" alt="Voluntários ajudando pessoas" class="hero-img">
+    <div class="hero-text">
+      <h1>Juntos podemos fazer a diferença</h1>
+      <p>Transforme vidas participando de nossos projetos sociais.</p>
+      <a href="#projetos" class="btn">Saiba mais</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 ONG Solidária | Contato: samueldoria500@gmail.com</p>
+  </footer>
+</body>
+</html>
+
