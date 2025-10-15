@@ -1,0 +1,27 @@
+:root {
+  /* Paleta de Cores */
+  --cor-primaria: #0057ff;
+  --cor-secundaria: #00c4b4;
+  --cor-neutra-1: #f5f5f5;
+  --cor-neutra-2: #e0e0e0;
+  --cor-neutra-3: #333333;
+  --cor-sucesso: #4caf50;
+  --cor-alerta: #ff9800;
+  --cor-erro: #f44336;
+
+  /* Tipografia */
+  --fonte-principal: "Poppins", sans-serif;
+  --tamanho-h1: 2.5rem;
+  --tamanho-h2: 2rem;
+  --tamanho-h3: 1.5rem;
+  --tamanho-texto: 1rem;
+  --tamanho-pequeno: 0.875rem;
+
+  /* Espaçamento Modular */
+  --esp-1: 8px;
+  --esp-2: 16px;
+  --esp-3: 24px;
+  --esp-4: 32px;
+  --esp-5: 48px;
+  --esp-6: 64px;
+}
