@@ -348,3 +348,64 @@ footer {
   margin-top: 40px;
 }
 
+body {
+  margin: 0;
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-neutra-1);
+  color: var(--cor-neutra-3);
+}
+
+header {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: var(--esp-2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: var(--esp-2);
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: var(--cor-secundaria);
+}
+
+.banner {
+  text-align: center;
+  padding: var(--esp-5);
+  background: linear-gradient(135deg, var(--cor-primaria), var(--cor-secundaria));
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--esp-3);
+  padding: var(--esp-4);
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: var(--esp-3);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
