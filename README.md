@@ -52,3 +52,15 @@ Layout Grid e Flexbox para organização dos blocos
 📧 samueldoria500@gmail.com
 
 🕊️ Feito com propósito — ONG Solidária 2024
+
+├─ index.html
+├─ css/
+│  └─ style.css
+├─ js/
+│  └─ app.js
+├─ imagens/
+│  ├─ logo.png
+│  ├─ projeto1.jpg
+│  ├─ projeto2.jpg
+│  └─ (substitua pelas suas imagens)
+└─ README.md
