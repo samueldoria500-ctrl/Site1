@@ -466,3 +466,32 @@ body{
   .main-nav{display:none}
   .menu-toggle{display:block}
 }
+
+:root {
+  --fundo-claro: #ffffff;
+  --texto: #111111;
+  --fundo-escuro: #121212;
+  --texto-escuro: #f5f5f5;
+  --alto-contraste-fundo: #000000;
+  --alto-contraste-texto: #ffff00;
+}
+
+body {
+  background-color: var(--fundo-claro);
+  color: var(--texto);
+  font-family: Arial, sans-serif;
+}
+
+body.dark-mode {
+  background-color: var(--fundo-escuro);
+  color: var(--texto-escuro);
+}
+
+body.high-contrast {
+  background-color: var(--alto-contraste-fundo);
+  color: var(--alto-contraste-texto);
+}
+
+a:focus, button:focus {
+  outline: 3px solid #00bfff;
+}
