@@ -64,3 +64,59 @@ Layout Grid e Flexbox para organização dos blocos
 │  ├─ projeto2.jpg
 │  └─ (substitua pelas suas imagens)
 └─ README.md
+
+Implementações:
+
+Estratégia de branching no padrão GitFlow
+
+main: versão de produção
+
+develop: desenvolvimento
+
+feature/*: novas funcionalidades
+
+hotfix/*: correções urgentes
+
+Exemplo de comandos utilizados:
+
+git init
+git branch -M main
+git checkout -b develop
+git checkout -b feature/acessibilidade
+git add .
+git commit -m "feat: implementação de acessibilidade no site"
+git push origin develop
+
+Commits Semânticos utilizados:
+
+feat: → nova funcionalidade
+
+fix: → correção de bug
+
+docs: → atualização de documentação
+
+style: → formatação e layout
+
+refactor: → melhoria de código
+
+chore: → tarefas de manutenção
+
+
+Sistema de releases:
+
+v1.0.0 — primeira versão funcional
+
+v1.1.0 — adição do modo escuro e versão de alto contraste
+
+v2.0.0 — versão final para deploy
+Implementações principais:
+
+Estrutura HTML semântica (header, nav, main, section, footer);
+
+Navegação por teclado (foco visível e ordem lógica);
+
+Contraste mínimo 4.5:1 entre texto e fundo;
+
+Modo alto contraste e modo escuro;
+
+Suporte para leitores de tela com aria-label e alt.
