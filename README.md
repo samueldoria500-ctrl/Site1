@@ -120,3 +120,39 @@ Contraste mínimo 4.5:1 entre texto e fundo;
 Modo alto contraste e modo escuro;
 
 Suporte para leitores de tela com aria-label e alt.
+
+# 🌎 Projeto Acessível — Experiência Prática IV
+
+Este projeto foi desenvolvido para a disciplina **Experiências Práticas – Unidade IV**, aplicando conceitos de **versionamento com Git/GitHub**, **acessibilidade digital (WCAG 2.1 AA)** e **deploy profissional via GitHub Pages**.
+
+## 🔧 Tecnologias Utilizadas
+- HTML5 Semântico
+- CSS3 (Modo Escuro e Alto Contraste)
+- JavaScript (Interatividade e Acessibilidade)
+- Git / GitHub
+- GitHub Pages (Deploy)
+
+## 🧩 Funcionalidades
+- Navegação por teclado
+- Contraste acessível 4.5:1
+- Leitura otimizada por leitores de tela
+- Modo escuro e modo alto contraste
+- Estrutura semântica e responsiva
+- Código minificado e otimizado
+
+## 🚀 Deploy
+Acesse o site online:  
+👉 [https://seuusuario.github.io/SiteAcessivel](https://seuusuario.github.io/SiteAcessivel)
+
+## 💻 Estrutura GitFlow
+- **main** → Produção  
+- **develop** → Desenvolvimento  
+- **feature/** → Novas funcionalidades  
+- **hotfix/** → Correções urgentes  
+
+## 🧠 Autor
+**Samuel Alves Doria**  
+📅 Outubro de 2025
+
+
+---
